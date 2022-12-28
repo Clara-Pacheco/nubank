@@ -45,9 +45,11 @@ Um site de banco também permite a confeccão de vários mockups( mockup de cart
 
 <div align="center">
   <p>*A essência do site original foi mantida!*</p>
-</div>
+
 
 ![](https://github.com/Clara-Pacheco/nubank/blob/main/img/readme/nubank-rocket.jpeg)
+
+</div>
 
 <br>
 
