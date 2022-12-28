@@ -82,12 +82,12 @@ A parte de pesquisa envolve toda essa documentação de referências e observaç
 
 ## 📊 UI Design: Wireframes e StyleGuide
 
-# Styleguide
+### Styleguide
 
 ![styleguide image](https://github.com/Clara-Pacheco/nubank/blob/main/img/readme/Styleguide.png)
 
 
-# Wireframes 
+### Wireframes 
 
 ![wireframe image](https://github.com/Clara-Pacheco/nubank/blob/main/img/readme/Wireframes.png)
 
