@@ -1,5 +1,5 @@
 <div align="center">
-<img width="400px" src="https://github.com/Clara-Pacheco/nubank/blob/main/img/nubank-title.png" alt="">&nbsp;&nbsp;&nbsp;
+<img width="400px" src="https://github.com/Clara-Pacheco/nubank/blob/main/img/readme/nubank-title.png" alt="">&nbsp;&nbsp;&nbsp;
 </div>
 <br>
 
@@ -22,7 +22,7 @@ Projeto desenvolvido do absoluto zero, contendo as seguintes fases:<br>
 - Verificação de velocidade de conexão e peso do site;<br>
 - Otimização do **CSS** e **JS**
 
-![workflow](https://github.com/Clara-Pacheco/nubank/blob/main/img/workflow.png)
+![workflow](https://github.com/Clara-Pacheco/nubank/blob/main/img/readme/workflow.png)
 
 ## 🎯 Motivações do Projeto
 
@@ -46,6 +46,8 @@ Um site de banco também permite a confeccão de vários mockups( mockup de cart
 <div align="center">
   <p>*A essência do site original foi mantida!*</p>
 </div>
+
+![](https://github.com/Clara-Pacheco/nubank/blob/main/img/readme/nubank-rocket.jpeg)
 
 <br>
 
@@ -80,12 +82,12 @@ A parte de pesquisa envolve toda essa documentação de referências e observaç
 
 # Styleguide
 
-![styleguide image](https://github.com/Clara-Pacheco/nubank/blob/main/img/Styleguide.png)
+![styleguide image](https://github.com/Clara-Pacheco/nubank/blob/main/img/readme/Styleguide.png)
 
 
 # Wireframes 
 
-![wireframe image](https://github.com/Clara-Pacheco/nubank/blob/main/img/Wireframes.png)
+![wireframe image](https://github.com/Clara-Pacheco/nubank/blob/main/img/readme/Wireframes.png)
 
 
 
