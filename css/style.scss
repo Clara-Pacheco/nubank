@@ -10,8 +10,10 @@
 
 @import "partials/colors";
 @import "partials/spacing";
-@import "partials/typography";
 @import "partials/layout";
+@import "partials/typography";
+
+
 
 html {
   scroll-behavior: smooth;
@@ -24,7 +26,7 @@ body {
 
   scroll-behavior: smooth;
 
-  background-color: #1a1a1a;
+  background-color: $white-dark;
 }
 
 svg,
