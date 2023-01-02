@@ -67,7 +67,8 @@ h5 {
   background: linear-gradient(220.94deg, #A950C4 14.43%, #82269E 85.28%);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-colors: transparent;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
   font-family: "Sora", sans-serif;
   font-size: 18px;
   line-height: 140%;
@@ -78,6 +79,43 @@ h5 {
     font-size: 16px;
     line-height: 150%;
   }
+}
+
+p {
+  color: #666566;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+}
+@media screen and (min-width: 540px) and (max-width: 960px) {
+  p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+
+.bold {
+  font-weight: bold;
+  color: #353436;
+}
+
+strong {
+  color: #161617;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+}
+@media screen and (min-width: 540px) and (max-width: 960px) {
+  strong {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+
+.text-center {
+  text-align: center;
 }
 
 html {

@@ -124,10 +124,38 @@ h5 {
   background: linear-gradient(220.94deg, $secondary-normal 14.43%, $primary-normal 85.28%);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-colors: transparent;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
   @include typeface-1(h5,desktop);
 
   @include responsive(s){
      @include typeface-1(h5,mobile);
   }
+}
+
+p {
+  color: $gray-3;
+  @include typeface-2(p2,desktop);
+
+  @include responsive(s){
+     @include typeface-2(p2,mobile);
+  }
+}
+
+.bold {
+  font-weight: bold;
+  color: $black-light;
+}
+
+strong {
+  color: $black-dark;
+  @include typeface-2(p2,desktop);
+
+  @include responsive(s){
+     @include typeface-2(p2,mobile);
+  }
+}
+
+.text-center {
+  text-align: center;
 }
