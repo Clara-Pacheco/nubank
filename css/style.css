@@ -140,4 +140,15 @@ img {
   border: 1px solid red;
 }
 
-/* width:100% para svg para que ocupe 100% da div pai*//*# sourceMappingURL=style.css.map */
+/* width:100% para svg para que ocupe 100% da div pai*/
+header {
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  z-index: 999;
+}
+
+.active-header {
+  background-color: #F7F2FA;
+  box-shadow: 0px 51px 80px rgba(169, 80, 196, 0.08), 0px 15.375px 24.1177px rgba(169, 80, 196, 0.0521271), 0px 6.38599px 10.0172px rgba(169, 80, 196, 0.04), 0px 2.30969px 3.62304px rgba(169, 80, 196, 0.0278729);
+}/*# sourceMappingURL=style.css.map */
