@@ -237,6 +237,18 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.7s ease;
+}
+.dropdown-menu .dropdown-menu-item {
+  border: 1px solid red;
+  width: 100%;
+}
+
+.active-dropdown-menu {
+  pointer-events: all;
+  opacity: 1;
 }
 
 .nav-link-dropdown {
