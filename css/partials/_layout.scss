@@ -28,8 +28,8 @@
       }
   }
   @else if $device == s{
-    // For resolutions between 540px and 960px
-      @media screen and (min-width: $container-s) and (max-width: $container-m) {
+    // For resolutions less than 960px
+      @media screen and (max-width: $container-m) {
         @content;
       }
   }

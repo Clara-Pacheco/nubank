@@ -12,7 +12,7 @@ h1 {
   font-size: 64px;
   line-height: 100%;
 }
-@media screen and (min-width: 540px) and (max-width: 960px) {
+@media screen and (max-width: 960px) {
   h1 {
     font-family: "Sora", sans-serif;
     font-size: 36px;
@@ -26,7 +26,7 @@ h2 {
   font-size: 52px;
   line-height: 100%;
 }
-@media screen and (min-width: 540px) and (max-width: 960px) {
+@media screen and (max-width: 960px) {
   h2 {
     font-family: "Sora", sans-serif;
     font-size: 36px;
@@ -40,7 +40,7 @@ h3 {
   font-size: 36px;
   line-height: 100%;
 }
-@media screen and (min-width: 540px) and (max-width: 960px) {
+@media screen and (max-width: 960px) {
   h3 {
     font-family: "Sora", sans-serif;
     font-size: 24px;
@@ -54,7 +54,7 @@ h4 {
   font-size: 24px;
   line-height: 130%;
 }
-@media screen and (min-width: 540px) and (max-width: 960px) {
+@media screen and (max-width: 960px) {
   h4 {
     font-family: "Sora", sans-serif;
     font-size: 18px;
@@ -73,7 +73,7 @@ h5 {
   font-size: 18px;
   line-height: 140%;
 }
-@media screen and (min-width: 540px) and (max-width: 960px) {
+@media screen and (max-width: 960px) {
   h5 {
     font-family: "Sora", sans-serif;
     font-size: 16px;
@@ -87,7 +87,7 @@ p {
   font-size: 16px;
   line-height: 140%;
 }
-@media screen and (min-width: 540px) and (max-width: 960px) {
+@media screen and (max-width: 960px) {
   p {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 14px;
@@ -106,7 +106,7 @@ strong {
   font-size: 16px;
   line-height: 140%;
 }
-@media screen and (min-width: 540px) and (max-width: 960px) {
+@media screen and (max-width: 960px) {
   strong {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 14px;
@@ -152,6 +152,94 @@ header {
 .active-header {
   background-color: #F7F2FA;
   box-shadow: 0px 51px 80px rgba(169, 80, 196, 0.08), 0px 15.375px 24.1177px rgba(169, 80, 196, 0.0521271), 0px 6.38599px 10.0172px rgba(169, 80, 196, 0.04), 0px 2.30969px 3.62304px rgba(169, 80, 196, 0.0278729);
+}
+
+.navbar-desktop {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 960px) {
+  .navbar-desktop {
+    display: none;
+  }
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-desktop-item1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar-desktop-item2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu-desktop li {
+  list-style: none;
+}
+
+.menu-desktop {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menu-desktop .menu-item {
+  margin-left: 16px;
+}
+
+.nav-link-desktop {
+  display: inline-block;
+  padding: 12px 16px;
+  position: relative;
+}
+.nav-link-desktop::after {
+  content: "";
+  position: absolute;
+  top: 42%;
+  right: -3px;
+  width: 7px;
+  height: 7px;
+  transform: rotate(45deg);
+  border-radius: 1px;
+  transition: 0.2s linear;
+  border-bottom: 2px solid #82269E;
+  border-right: 2px solid #82269E;
+}
+.nav-link-desktop:hover::after {
+  top: 45%;
+}
+
+.navbar-mobile {
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .navbar-mobile {
+    display: block;
+  }
+}
+
+.menu-mobile {
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .menu-mobile {
+    display: block;
+  }
 }
 
 a {
