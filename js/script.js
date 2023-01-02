@@ -30,3 +30,14 @@ menuItens.forEach((item,index) => {
   })
 })
 
+// Menu mobile
+
+const burguerMenu = document.getElementById('burguer-menu')
+
+burguerMenu.addEventListener('click',()=>{
+  const menuMobile = document.querySelector('.menu-mobile')
+  menuMobile.classList.toggle('active-menu-mobile')
+  burguerMenu.classList.toggle('active-burguer-menu')
+})
+
+
