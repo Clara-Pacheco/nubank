@@ -242,7 +242,6 @@ header {
   transition: 0.7s ease;
 }
 .dropdown-menu .dropdown-menu-item {
-  border: 1px solid red;
   width: 100%;
 }
 
