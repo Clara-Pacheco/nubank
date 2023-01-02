@@ -19,7 +19,7 @@ console.log(dropDownMenu)
 menuItens.forEach((item,index) => {
   item.addEventListener('click',(e)=>{
     e.preventDefault()
-    dropDownMenu[index].classList.add('active-dropdown-menu')
+    dropDownMenu[index].classList.toggle('active-dropdown-menu')
   })
 })
 
