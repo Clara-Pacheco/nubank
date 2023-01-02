@@ -272,11 +272,74 @@ header {
 
 .navbar-mobile {
   display: none;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px 24px;
 }
 @media screen and (max-width: 960px) {
   .navbar-mobile {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
+}
+
+.burguer-menu {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  cursor: pointer;
+  z-index: 800;
+  transition: 0.7 ease;
+  background-color: #fff;
+}
+.burguer-menu::after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: 17%;
+  width: 70%;
+  height: 2px;
+  background-color: #82269E;
+}
+.burguer-menu::before {
+  content: "";
+  position: absolute;
+  top: 64%;
+  left: 17%;
+  width: 70%;
+  height: 2px;
+  background-color: #82269E;
+}
+
+.active-burguer-menu {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  cursor: pointer;
+  z-index: 800;
+  transition: 0.7 ease;
+  background-color: #fff;
+}
+.active-burguer-menu::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 17%;
+  transform: rotate(-135deg);
+  width: 70%;
+  height: 2px;
+  background-color: #82269E;
+}
+.active-burguer-menu::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 17%;
+  transform: rotate(-45deg);
+  width: 70%;
+  height: 2px;
+  background-color: #82269E;
 }
 
 .menu-mobile {
