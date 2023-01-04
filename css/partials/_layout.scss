@@ -53,8 +53,6 @@
   flex-direction: row;
   overflow: hidden;
 
-  border: 1px solid red;
-
   @include responsive(s){
     flex-direction: column;
 
