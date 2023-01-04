@@ -19,6 +19,8 @@ $width-height: 0.64 * $width-card;
 
   background-color: red;
 
+  z-index: -1;
+
   animation: flip-card 12s linear infinite alternate,
   change-bg-card 12s linear infinite alternate;
 }
@@ -47,4 +49,31 @@ $width-height: 0.64 * $width-card;
     background-image: url("../../svg/nubank-verse.svg");
     background-size: cover;
   }
+}
+
+.icon-card-hero {
+  position: absolute;
+  top: 0;
+  left: -30px;
+
+  z-index: 200;
+
+}
+
+.icon-contactless-hero {
+  position: absolute;
+  top: 350px;
+  left: 30px;
+
+  z-index: 200;
+
+}
+
+.icon-mobile-hero {
+  position: absolute;
+  top: 150px;
+  left: -250px;
+
+  z-index: 200;
+
 }
