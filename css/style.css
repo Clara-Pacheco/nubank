@@ -607,6 +607,8 @@ img {
   top: 0;
   left: -30px;
   z-index: 200;
+  -webkit-animation: icons-hero 7s ease 0.5s infinite alternate;
+          animation: icons-hero 7s ease 0.5s infinite alternate;
 }
 
 .icon-contactless-hero {
@@ -614,6 +616,8 @@ img {
   top: 350px;
   left: 30px;
   z-index: 200;
+  -webkit-animation: icons-hero 7s ease 1s infinite alternate;
+          animation: icons-hero 7s ease 1s infinite alternate;
 }
 
 .icon-mobile-hero {
@@ -621,8 +625,27 @@ img {
   top: 150px;
   left: -250px;
   z-index: 200;
+  -webkit-animation: icons-hero 7s ease 2.5s infinite alternate;
+          animation: icons-hero 7s ease 2.5s infinite alternate;
 }
 
+@-webkit-keyframes icons-hero {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(10px, -40px, 0);
+  }
+}
+
+@keyframes icons-hero {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(10px, -40px, 0);
+  }
+}
 header {
   width: 100%;
   background-color: transparent;
