@@ -39,6 +39,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  z-index: 800;
 }
 
 .navbar-desktop-item1 {
@@ -188,7 +190,7 @@ header {
   position: relative;
   cursor: pointer;
   z-index: 800;
-  transition: .7 ease;
+  
 
   background-color: #fff;
 
@@ -200,7 +202,7 @@ header {
 
     width: 70%;
     height: 2px;
-
+    transition: .7s ease;
     background-color: $primary-normal;
 
   }
@@ -212,7 +214,7 @@ header {
 
     width: 70%;
     height: 2px;
-
+    transition: .7s ease;
     background-color: $primary-normal;
 
   }
@@ -226,7 +228,7 @@ header {
   position: relative;
   cursor: pointer;
   z-index: 800;
-  transition: .7 ease;
+  transition: .7s ease;
 
   background-color: #fff;
 
@@ -236,7 +238,7 @@ header {
     top: 50%;
     left: 17%;
 
-    transform: rotate(-135deg);
+    transform: rotate(-315deg);
 
     width: 70%;
     height: 2px;
@@ -272,6 +274,7 @@ header {
   pointer-events: none;
 
   transform: translate3d(0,-100px,0);
+  transition: 1s ease;
 }
 
 .active-menu-mobile {
