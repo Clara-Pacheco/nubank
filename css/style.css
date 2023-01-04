@@ -619,6 +619,12 @@ img {
   -webkit-animation: icons-hero 7s ease 1s infinite alternate;
           animation: icons-hero 7s ease 1s infinite alternate;
 }
+@media screen and (max-width: 960px) {
+  .icon-contactless-hero {
+    top: 320px;
+    left: 120px;
+  }
+}
 
 .icon-mobile-hero {
   position: absolute;
@@ -627,6 +633,12 @@ img {
   z-index: 200;
   -webkit-animation: icons-hero 7s ease 2.5s infinite alternate;
           animation: icons-hero 7s ease 2.5s infinite alternate;
+}
+@media screen and (max-width: 960px) {
+  .icon-mobile-hero {
+    top: 350px;
+    left: -100px;
+  }
 }
 
 @-webkit-keyframes icons-hero {

@@ -69,6 +69,11 @@ $width-height: 0.64 * $width-card;
 
   z-index: 200;
 
+  @include responsive(s){
+    top: 320px;
+    left: 120px;
+  }
+
   animation: icons-hero 7s ease 1s infinite alternate;
 
 }
@@ -79,6 +84,11 @@ $width-height: 0.64 * $width-card;
   left: -250px;
 
   z-index: 200;
+
+  @include responsive(s){
+    top: 350px;
+    left: -100px;
+  }
 
   animation: icons-hero 7s ease 2.5s infinite alternate;
 
