@@ -536,6 +536,93 @@ img {
 }
 
 /* width:100% para svg para que ocupe 100% da div pai*/
+.div-card {
+  perspective: 500px;
+  position: relative;
+}
+
+.card {
+  width: 340px;
+  height: 217.6px;
+  border-radius: 12px;
+  transform-origin: center center;
+  transform-style: preserve-3d;
+  background-color: red;
+  z-index: -1;
+  -webkit-animation: flip-card 12s linear infinite alternate, change-bg-card 12s linear infinite alternate;
+          animation: flip-card 12s linear infinite alternate, change-bg-card 12s linear infinite alternate;
+}
+
+@-webkit-keyframes flip-card {
+  0% {
+    transform: rotateX(-10deg) rotateY(10deg) rotateY(-15deg);
+  }
+  40% {
+    transform: rotateX(0deg) rotateY(20deg);
+  }
+  60% {
+    transform: rotateX(180deg) rotateY(20deg);
+  }
+  100% {
+    transform: rotateX(190deg) rotateY(10deg) rotateY(15deg);
+  }
+}
+
+@keyframes flip-card {
+  0% {
+    transform: rotateX(-10deg) rotateY(10deg) rotateY(-15deg);
+  }
+  40% {
+    transform: rotateX(0deg) rotateY(20deg);
+  }
+  60% {
+    transform: rotateX(180deg) rotateY(20deg);
+  }
+  100% {
+    transform: rotateX(190deg) rotateY(10deg) rotateY(15deg);
+  }
+}
+@-webkit-keyframes change-bg-card {
+  0%, 49% {
+    background-image: url("../../svg/nubank.svg");
+    background-size: cover;
+  }
+  50%, 100% {
+    background-image: url("../../svg/nubank-verse.svg");
+    background-size: cover;
+  }
+}
+@keyframes change-bg-card {
+  0%, 49% {
+    background-image: url("../../svg/nubank.svg");
+    background-size: cover;
+  }
+  50%, 100% {
+    background-image: url("../../svg/nubank-verse.svg");
+    background-size: cover;
+  }
+}
+.icon-card-hero {
+  position: absolute;
+  top: 0;
+  left: -30px;
+  z-index: 200;
+}
+
+.icon-contactless-hero {
+  position: absolute;
+  top: 350px;
+  left: 30px;
+  z-index: 200;
+}
+
+.icon-mobile-hero {
+  position: absolute;
+  top: 150px;
+  left: -250px;
+  z-index: 200;
+}
+
 header {
   width: 100%;
   background-color: transparent;
