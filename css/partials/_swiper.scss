@@ -15,6 +15,8 @@
   align-items: center;
 
   position: relative;
+  overflow-x: hidden;
+  // border: 1px solid red;
 
 
 }
@@ -66,5 +68,37 @@
   background-repeat: no-repeat;
   background-position: center center;
   transform: rotate(180deg);
+
+}
+
+.photo-profile {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  
+
+  background-image: url('../../img/site/people1.png');
+  background-size: cover;
+  /*Para que adapte automaticamente ao tamanho da div.*/
+  background-repeat: no-repeat;
+}
+
+.photo-2 {
+  background-image: url('../../img/site/people2.png');
+
+}
+
+.photo-3 {
+  background-image: url('../../img/site/people3.png');
+
+}
+
+.photo-4 {
+  background-image: url('../../img/site/people4.png');
+ 
+}
+
+.photo-5 {
+  background-image: url('../../img/site/people5.png');
 
 }
