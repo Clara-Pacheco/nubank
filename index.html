@@ -9,6 +9,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
   <!------------------ CSS -------------------------->
   <link rel="stylesheet" href="css/style.css">
+  <!------------------ CDN SWIPER JS -------------------------->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
   <!-------------------------- SVG INJECT-------------------------->
   <script src="js/svg-inject.min.js"></script>
   <title>Project Nubank</title>
@@ -196,6 +198,23 @@
 
 <!-- JS -->
 <script src="js/script.js"></script>
-
+ <!------------------ CDN SWIPER JS -------------------------->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+ <script>
+ const swiper = new Swiper('.swiper-container', {
+    slidesPerView: 'auto',
+    spaceBetween: 40,
+    grabCursor: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        type:'progressbar'
+    },
+    navigation: {
+      nextEl: '.button-next',
+      prevEl: '.button-prev',
+    },
+  });
+</script>
 </body>
 </html>
